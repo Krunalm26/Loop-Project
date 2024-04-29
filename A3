@@ -1,0 +1,10 @@
+
+const number = 5;
+const maxMultiple = 10;
+
+for(let i = 1; i <= maxMultiple; i++) {
+    if(i % 2 === 0) {
+        continue;
+    }
+    console.log(${number} x ${i} = ${number*i});
+}

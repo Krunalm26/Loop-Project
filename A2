@@ -1,0 +1,12 @@
+
+let sum = 0;
+
+for (let x = 1; x <= 100; x++) {
+  sum += x;
+
+  if (sum > 1000) {
+    break;
+  }
+}
+
+console.log(sum)

@@ -1,0 +1,14 @@
+
+function factorial(num) {
+    let result = 1;
+    for (let i = 1; i <= num; i++) {
+        if (i % 2 === 0) {
+            continue;
+        }
+        result *= i;
+    }
+    return result;
+}
+
+let number = 5;
+console.log(factorial(number));
